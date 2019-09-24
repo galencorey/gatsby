@@ -340,6 +340,7 @@ export default (pagePath, callback) => {
     .forEach(style => {
       // Add <link>s for styles that should be prefetched
       // otherwise, inline as a <style> tag
+      // TODO
 
       if (style.rel === `prefetch`) {
         headComponents.push(
